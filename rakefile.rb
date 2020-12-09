@@ -50,3 +50,13 @@ namespace "pass" do
         sh %q{ cat cowrie.json* | jq '. | select(.eventid | contains("cowrie.command.input")) | .input' > out_pass.txt }
     end
 end
+
+
+namespace "user" do
+    task :all do
+        sh %q{cat cowrie.json* | jq '. | select(.username) | .username' }
+    end
+    task :export do
+        sh %{cat cowrie.json* | jq '. | select(.username) | .username' > out_user.txt }
+    end
+end
