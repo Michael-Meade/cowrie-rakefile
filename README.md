@@ -21,3 +21,32 @@ Returns the top ten
 
 ### Top commands
 `rake top:commands`
+
+# Commands
+
+### Exports all the commands into out_commands.txt
+`rake commands:export`
+
+
+# Download
+
+`rake download:all`
+
+### Top 10 Downloads
+`rake download:top`
+
+### Top 10 URLS
+`rake download:urls`
+
+### All URLS
+`rake download:allurls`
+
+
+# Pass
+
+### All Pass
+`rake pass:all`
+
+### Export pass to out_pass.txt
+`rake pass:export`
+
