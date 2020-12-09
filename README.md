@@ -29,7 +29,7 @@ Returns the top ten
 
 
 # Download
-
+### All the downloads
 `rake download:all`
 
 ### Top 10 Downloads
@@ -50,3 +50,7 @@ Returns the top ten
 ### Export pass to out_pass.txt
 `rake pass:export`
 
+# Users
+
+### All User
+`rake user:all`
