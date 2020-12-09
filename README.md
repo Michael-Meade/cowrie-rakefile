@@ -54,3 +54,6 @@ Returns the top ten
 
 ### All User
 `rake user:all`
+
+### Export users to out_user.txt
+`rake user:export`
